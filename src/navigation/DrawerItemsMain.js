@@ -58,6 +58,30 @@ export const drawerItems = [
         key: "Recommendations",
         title: "Recomendaciones",
         parent: 'Other'
-    }
+    },
+
+    {
+        key: 'TherapeuticExerciseIntroduction',
+        title: 'Introducción al ejercicio terapéutico',
+        parent: 'Other'
+    },
+
+    {
+        key: 'TherapeuticExerciseTypes',
+        title: 'Tipos de ejercicios terapéuticos',
+        parent: 'Other'
+    },
+
+    {
+        key: 'Pressotherapy',
+        title: 'Preso-Terapia',
+        parent: 'Other'
+    },
+
+    {
+        key: 'PainManagement',
+        title: 'Manejo del dolor',
+        parent: 'Intervention'
+    },
 
 ]

@@ -11,6 +11,10 @@ import ControlAndFollowUp from '../pages/ControlAndFollowUp';
 import Functional from '../pages/complications/Functional';
 import Aesthetic from '../pages/complications/Aesthetic';
 import Recommendations from '../pages/Recommendations';
+import PainManagement from '../pages/intervention/PainManagement';
+import TherapeuticExerciseIntroduction from '../pages/intervention/TherapeuticExercise/TherapeuticExerciseIntroduction';
+import TherapeuticExerciseTypes from '../pages/intervention/TherapeuticExercise/TherapeuticExerciseTypes';
+import Pressotherapy from '../pages/intervention/scar_management/Pressotherapy';
 
 const Map = {
   "Home": "Home",
@@ -22,7 +26,11 @@ const Map = {
   "Definition": Definition,
   "Functional": Functional,
   "Aesthetic": Aesthetic,
-  "Recommendations": Recommendations
+  "Recommendations": Recommendations,
+  "PainManagement": PainManagement,
+  "TherapeuticExerciseIntroduction": TherapeuticExerciseIntroduction,
+  "TherapeuticExerciseTypes": TherapeuticExerciseTypes,
+  "Pressotherapy": Pressotherapy
 }
 
 const Drawer = createDrawerNavigator();
